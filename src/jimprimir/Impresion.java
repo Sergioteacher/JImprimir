@@ -60,6 +60,7 @@ public class Impresion extends javax.swing.JPanel implements Printable {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Como Imprimir en JAVA");
@@ -69,10 +70,12 @@ public class Impresion extends javax.swing.JPanel implements Printable {
         PanelInterior.setLayout(new javax.swing.BoxLayout(PanelInterior, javax.swing.BoxLayout.Y_AXIS));
 
         Panel1Separador.setBackground(new java.awt.Color(255, 255, 255));
+        Panel1Separador.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 5)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Separador");
+        jLabel2.setForeground(new java.awt.Color(51, 0, 255));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("© Sergioteacher");
         Panel1Separador.add(jLabel2);
 
         PanelInterior.add(Panel1Separador);
